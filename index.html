@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Football-Team.png">
+    <title>Football team</title>
+</head>
+<body>
+    <header>
+        <h1>Football team</h1>
+        <p>Website about sport</p>
+        <nav>
+            <ol>
+                <li><a href="#champ">Championship</a></li>
+                <li><a href="#map">Select country</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ol>
+        </nav>
+    </header>
+    <div>
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="f">
+                    <section class="champ" id="champ">
+                        <h2>Championship</h2>
+                        <img src="https://img.tsn.ua/cached/443/tsn-e4d2bbace79d9196864837254e47d00a/thumbs/1200x630/c7/2c/d6a720c9348cf2f4bdb4d054de882cc7.jpeg" alt="cup" width="300">
+                        <p>Select Team:</p>
+                        <ul>
+                            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/800px-Bandera_de_Espa%C3%B1a.svg.png" alt="esp" width="20"><a href="Barca.html" target="_parent">Barcelona</a></li>
+                            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/800px-Bandera_de_Espa%C3%B1a.svg.png" alt="esp" width="20"><a href="https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B0%D0%BB_%D0%9C%D0%B0%D0%B4%D1%80%D0%B8%D0%B4_(%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BB%D1%83%D0%B1)" target="_parent">Real Madrid</a></li>
+                            <li><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg" alt="eng" width="20"><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D1%87%D0%B5%D1%81%D1%82%D0%B5%D1%80_%D0%A1%D0%B8%D1%82%D0%B8" target="_parent">Manchester City</a></li>
+                            <li><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg" alt="eng" width="20"><a href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%B2%D0%B5%D1%80%D0%BF%D1%83%D0%BB%D1%8C_(%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BB%D1%83%D0%B1)" target="_parent">Liverpool</a></li>
+                            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1024px-Flag_of_Germany.svg.png" alt="ger" width="20"><a href="https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%BE%D0%BD_(%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BB%D1%83%D0%B1,_%D0%91%D0%B5%D1%80%D0%BB%D0%B8%D0%BD)" target="_parent">Union Berlin</a></li>
+                            <li><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg" alt="eng" width="20"><a href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D1%81%D1%82%D0%B5%D1%80_%D0%A1%D0%B8%D1%82%D0%B8" target="_parent">Lester City</a></li>
+                        </ul>
+                    </section>
+                    <hr />
+                    <section id="map">
+                        <h2>Select country</h2>
+                        <img src="map.jpg" alt="map" usemap="#navigation">
+                        <map name="navigation">
+                            <area shape="poly" coords="75,91,94,154,59,158" href="England.html" alt="England" target="_parent" />
+                            <area shape="poly" coords="18,215,92,244,48,285,15,276" href="Spain.html" alt="Spain" target="_parent" />
+                            <area shape="poly" coords="133,193,133,141,170,132,168,193" href="Germany.html" alt="Germany" target="_parent" />
+                        </map>
+
+                    </section>
+                    <hr />
+                    <section id="about">
+                        <h2>About Project</h2>
+                        <p>This project was specially created for Astana IT University by Zeytkazy Sayat. <br />The project has no particular meaning other than educational. <br />The idea is to create a site similar to Wikipedia, but specialized on football clubs. <br />Club fans will fill out or add to the pages themselves.</p>
+                    </section>
+                    <hr />
+                    <section id="contact">
+                        <h2>Contact Us</h2>
+                        <form action="contact.php" method="POST">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </section>
+                </td>
+                <td class="s">
+                    <section class="second">
+                        <h2>Additional Information</h2>
+                        <p>
+                            <ol>
+                                <li>I don't know what exactly will be located here</li>
+                                <li>There may be advertising</li>
+                                <li>Or links to live broadcasts of matches like <a href="https://setantasports.com/ru/">this</a></li>
+                                <li>Possibly information about clubs</li>
+                            </ol>
+
+                        </p>
+                    </section>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2023 Football team</p>
+        <ul>
+            <li><img src="https://cdn.icon-icons.com/icons2/509/PNG/512/YouTube_icon-icons.com_49934.png" width="30"><a href="https://www.youtube.com/">Youtube</a></li>
+            <li><img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/telegram_icon_136124.png" width="30"><a href="https://web.telegram.org/">Telegram</a></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/512/1936/1936319.png" width="30"><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

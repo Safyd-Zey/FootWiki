@@ -1,0 +1,140 @@
+﻿
+body, h1, h2, p, ul, li, form {
+    margin: 5px;
+    padding: 0;
+}
+
+hr {
+    border: 2px; 
+    color: gray; 
+    background-color: gray; 
+    height: 3px; 
+}
+a{
+    color:black;
+}
+    a:hover {
+        text-decoration: none; 
+        color: white; 
+        background: #0094ff; 
+    }
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background-image: url(поле.jpg)
+}
+
+header > p{
+    color: white;
+    font-weight: 700;
+}
+
+    header > h1::before {
+        content: '⚽'
+    }
+    header > h1::after {
+        content: '⚽'
+    }
+header a:hover{
+    background-color:black;
+}
+
+table {
+    border: 3px solid gray;
+    width: 100% ;
+    background-color: #333;
+}
+tr {
+    border: 3px solid gray;
+    width: 100%;
+}
+td.f {
+    width: 80%;
+    border: 3px solid gray;
+}
+td.s {
+    background-image: url("https://img.goodfon.ru/wallpaper/big/4/1a/seryi-linii-lines-grey-fon.jpg") ;
+    border: 3px solid gray;
+    vertical-align: top;
+    width: 20%
+}
+td.s h2{
+    text-align: center;
+}
+section.second {
+    border: 3px solid grey;
+    background-color: white;
+}
+nav ol {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    padding: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid gray;
+    background-color: white;
+}
+.champ > ul {
+    border-left: 4px solid gray;
+    list-style: none;
+    padding-left: 15px;
+   
+}
+
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-image: url(https://img.goodfon.ru/wallpaper/big/4/1a/seryi-linii-lines-grey-fon.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+    footer ul {
+        list-style: none;
+        color: white;
+    }
+    footer li {
+        display: inline;
+        margin-right: 20px;
+        padding: 2px;
+    }
+    footer a{
+        color: white;
+    }
